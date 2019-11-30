@@ -28,4 +28,4 @@ An [ARIMA model](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_
 [Prophet](https://facebook.github.io/prophet/), developed by Facebook, is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data.
 
 ### Goal
-We are going to apply these different models to find which one will produce the best predictions. Then we use the model to forecast the price of GOLD ETF for the next 2 years.
+We are going to apply these different models to find which one will produce the best predictions. Then we use the best fitted model to forecast the price of GOLD ETF for the next 2 years.
