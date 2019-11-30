@@ -35,3 +35,7 @@ An [ARIMA model](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_
 
 ### Goal
 We are going to apply these different models to find which one will produce the best predictions. Then we use the best fitted model to forecast the price of GOLD ETF for the next 2 years.
+
+# Conclusion
+  * Between ARIMA and Facebook Prophet, ARIMA shows a better fit between actual data and predicted data.
+  * In the out-of-sample forecast, the ARIMA model shows an upward trend in gold prices for the next 2 years, forecasting the price of gold to be at $150.80 by 11/21/2021. That's 9.28% increase from today's price of $138.
