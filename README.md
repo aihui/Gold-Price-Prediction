@@ -16,6 +16,12 @@ The historical prices of SPDR® Gold Shares (NYSE Arca : GLD) was downloaded fro
 # What Is Time Series
 A time series is a series of data points indexed (or listed or graphed) in time order. Most commonly, a time series is a sequence taken at successive equally spaced points in time. Thus it is a sequence of discrete-time data. Examples include daily closing price of S&P Index, daily average temperate etc. Time Series are analyzed to determine the long term trend so as to forecast the future or perform some other form of analysis.
 
+# Important Data Files
+The Data folder contains these important files:
+  * GLD.csv - the original data downloaded from [Yahoo](https://finance.yahoo.com/quote/GLD/history?p=GLD)
+  * gld-nomissing.csv - the original data file with missing data filled in. For example, data for weekends and holidays are missing because the stock market was closed.
+  * sarimax_manualgridsearch_results.csv - this file contains the different parameters and tha associated AIC results produced by a manual grid search
+
 # Machine Learning Models Used
 There are machine learning algorithms that are better suited for time series. For this project, we are going to use:
   * ARIMA
